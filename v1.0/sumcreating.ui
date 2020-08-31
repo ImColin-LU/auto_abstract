@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_sumcreating</class>
+ <widget class="QMainWindow" name="MainWindow_sumcreating">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+    <pointsize>26</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow_sumcreating{
+	background:#FFFEF8
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QProgressBar" name="progressBar1">
+    <property name="geometry">
+     <rect>
+      <x>274</x>
+      <y>310</y>
+      <width>371</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QProgressBar#progressBar1{
+    border: none;
+    color: white;
+   	text-align: center;
+    background:#f9f4dc;
+	border-radius:5px;
+
+}
+
+QProgressBar#progressBar1::chunk {
+        border: none;
+        background: #B2A68F;
+		border-radius:5px;
+}</string>
+    </property>
+    <property name="value">
+     <number>66</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_sumcreate">
+    <property name="geometry">
+     <rect>
+      <x>419</x>
+      <y>340</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_sumcreate{
+	color:#383028
+}</string>
+    </property>
+    <property name="text">
+     <string>摘要生成中</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_sumcreate">
+    <property name="geometry">
+     <rect>
+      <x>427</x>
+      <y>230</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_sumcreate{
+	background:#FFFEF8;
+	border:1px solid #FFFEF8;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icon/file.png</normaloff>
+      <normalon>:/new/prefix1/file.png</normalon>icon/file.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icon/uploadicon.qrc"/>
+  <include location="icon/fileicon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

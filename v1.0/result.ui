@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_result</class>
+ <widget class="QMainWindow" name="MainWindow_result">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow_result{
+	background:#FFFEF8
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_doc">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>570</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_doc{  
+    border: 1px solid #FFFEF8;  
+    background-color:#E7DDCF;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_doc:pressed{
+	background-color:#d4c4b7;
+	border:0.5px solid #c1b2a3;
+}
+
+QPushButton#pushButton_doc:hover{
+	border:0.5px solid #c1b2a3;
+}</string>
+    </property>
+    <property name="text">
+     <string>.doc</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icon/download.png</normaloff>icon/download.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back2">
+    <property name="geometry">
+     <rect>
+      <x>98</x>
+      <y>571</y>
+      <width>60</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_back2{  
+    border: 1px solid #FFFEF8;  
+    background-color:#E7DDCF;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_back2:pressed{
+	background-color:#d4c4b7;
+	border:0.5px solid #c1b2a3;
+}
+
+QPushButton#pushButton_back2:hover{
+	border:0.5px solid #c1b2a3;
+}</string>
+    </property>
+    <property name="text">
+     <string>←</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_pdf">
+    <property name="geometry">
+     <rect>
+      <x>639</x>
+      <y>570</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_pdf{  
+    border: 1px solid #FFFEF8;  
+    background-color:#E7DDCF;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_pdf:hover{
+	border:0.5px solid #c1b2a3;
+}
+
+QPushButton#pushButton_pdf:pressed{
+	background-color:#d4c4b7;
+	border:0.5px solid #c1b2a3;
+}</string>
+    </property>
+    <property name="text">
+     <string>.pdf</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icon/download.png</normaloff>icon/download.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_summary">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>750</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPlainTextEdit#plainTextEdit_summary{
+	border:1px solid #97846c
+}</string>
+    </property>
+    <property name="plainText">
+     <string>生成的摘要</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_summaryresult">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>160</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_summaryresult{
+	color:#383028
+}</string>
+    </property>
+    <property name="text">
+     <string>摘要</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_titleresult">
+    <property name="geometry">
+     <rect>
+      <x>28</x>
+      <y>30</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_titleresult{
+	color:#383028
+}</string>
+    </property>
+    <property name="text">
+     <string>标题</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_title1">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>750</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit#lineEdit_title1{
+	border:1px solid #97846c
+}</string>
+    </property>
+    <property name="text">
+     <string> 标题1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_title2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>83</y>
+      <width>750</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit#lineEdit_title2{
+	border:1px solid #97846c
+}</string>
+    </property>
+    <property name="text">
+     <string> 标题2</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_title3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>116</y>
+      <width>750</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit#lineEdit_title3{
+	border:1px solid #97846c
+}</string>
+    </property>
+    <property name="text">
+     <string> 标题3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_keywordresult">
+    <property name="geometry">
+     <rect>
+      <x>18</x>
+      <y>491</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_keywordresult{
+	color:#383028
+}</string>
+    </property>
+    <property name="text">
+     <string>关键词</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_keywords">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>510</y>
+      <width>750</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit#lineEdit_keywords{
+	border:1px solid #97846c
+}</string>
+    </property>
+    <property name="text">
+     <string> 关键词</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

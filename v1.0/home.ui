@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_home</class>
+ <widget class="QMainWindow" name="MainWindow_home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow_home{
+	background:#FFFEF8
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="pushButton_openfile">
+    <property name="geometry">
+     <rect>
+      <x>287</x>
+      <y>328</y>
+      <width>320</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_openfile{  
+    border: 1px solid #9a8878;  
+    background-color:#ffffff;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_openfile:pressed{
+	background-color:#FBF7F6;
+	border:0.5px solid #DDCFC2;
+}
+
+QPushButton#pushButton_openfile:hover{
+	border:0.5px solid #DDCFC2;
+}</string>
+    </property>
+    <property name="text">
+     <string>  打开文件</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icon/uploadicon.qrc">
+      <normaloff>:/newPrefix/upload.png</normaloff>
+      <normalon>:/newPrefix/upload.png</normalon>:/newPrefix/upload.png</iconset>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_maintitle_shadow">
+    <property name="geometry">
+     <rect>
+      <x>331</x>
+      <y>188</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_maintitle_shadow{
+	color:#847c74
+}</string>
+    </property>
+    <property name="text">
+     <string>论 文 助 手</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_format">
+    <property name="geometry">
+     <rect>
+      <x>321</x>
+      <y>395</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_format{
+	color:#3A332A
+}</string>
+    </property>
+    <property name="text">
+     <string>支持扩展名： .pdf  .doc  .docx  .txt</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_maintitle">
+    <property name="geometry">
+     <rect>
+      <x>331</x>
+      <y>189</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_maintitle{
+	color:#3A332A
+}</string>
+    </property>
+    <property name="text">
+     <string>论 文 助 手</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_author">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>600</y>
+      <width>251</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_author{
+	color:#97846c
+}</string>
+    </property>
+    <property name="text">
+     <string>Designed by Hu Tong &amp; Li Shuolin</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="icon/uploadicon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_preandedit</class>
+ <widget class="QMainWindow" name="MainWindow_preandedit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>900</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow_preandedit{
+	background:#FFFEF8
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_create">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>570</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_create{  
+    border: 1px solid #FFFEF8;  
+    background-color:#E7DDCF;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_create:pressed{
+	background-color:#d4c4b7;
+	border:0.5px solid #c1b2a3;
+}
+
+QPushButton#pushButton_create:hover{
+	border:0.5px solid #c1b2a3;
+}</string>
+    </property>
+    <property name="text">
+     <string>生成</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_preview">
+    <property name="geometry">
+     <rect>
+      <x>27</x>
+      <y>30</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#label_preview{
+	color:#383028
+}</string>
+    </property>
+    <property name="text">
+     <string>预览</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_back1">
+    <property name="geometry">
+     <rect>
+      <x>97</x>
+      <y>570</y>
+      <width>60</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_back1{  
+    border: 1px solid #FFFEF8;  
+    background-color:#E7DDCF;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_back1:pressed{
+	background-color:#d4c4b7;
+	border:0.5px solid #c1b2a3;
+}
+
+QPushButton#pushButton_back1:hover{
+	border:0.5px solid #c1b2a3;
+}</string>
+    </property>
+    <property name="text">
+     <string>←</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_preview">
+    <property name="geometry">
+     <rect>
+      <x>99</x>
+      <y>51</y>
+      <width>731</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::PreventContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPlainTextEdit#plainTextEdit_preview{
+	border:1px solid #4f4032
+}</string>
+    </property>
+    <property name="plainText">
+     <string>在此处预览打开的文本</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_savechange">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>570</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton_savechange{  
+    border: 1px solid #FFFEF8;  
+    background-color:#E7DDCF;
+    border-style: solid;  
+    border-radius:0px;  
+    width: 40px; 
+    height:20px;  
+    padding:0 0px;  
+    margin:0 0px;  
+}  
+
+QPushButton#pushButton_savechange:pressed{
+	background-color:#d4c4b7;
+	border:0.5px solid #c1b2a3;
+}
+
+QPushButton#pushButton_savechange:hover{
+	border:0.5px solid #c1b2a3;
+}</string>
+    </property>
+    <property name="text">
+     <string>保存修改</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
